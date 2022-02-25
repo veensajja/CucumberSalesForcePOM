@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37512" started-at="2022-02-24T23:56:41 PST" finished-at="2022-02-24T23:57:19 PST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="37512" started-at="2022-02-24T23:56:41 PST" finished-at="2022-02-24T23:57:19 PST">
+      <class name="com.salesforce.runner.SalesforceLoginRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="setUpClass" is-config="true" duration-ms="257" started-at="2022-02-24T23:56:41 PST" finished-at="2022-02-24T23:56:41 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@317a118b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="4998" started-at="2022-02-24T23:56:41 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:56:46 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="3664" started-at="2022-02-24T23:56:46 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:56:50 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and empty password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="7839" started-at="2022-02-24T23:56:50 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:56:58 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Salesforce"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="9732" started-at="2022-02-24T23:56:58 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:57:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Remember Me"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="6581" started-at="2022-02-24T23:57:08 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:57:14 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="runScenario" duration-ms="4376" started-at="2022-02-24T23:57:14 PST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-24T23:57:19 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to Salesforce application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.salesforce.runner.SalesforceLoginRunner@25bbf683]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2022-02-24T23:57:19 PST" finished-at="2022-02-24T23:57:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.salesforce.runner.SalesforceLoginRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
